@@ -1,5 +1,7 @@
 ## Deployment commands
 deployment:
-	commands:
-	    - cp .ssh/* ~/.ssh
-	    - chmod 600 ~/.ssh/id_rsa*
+  production: # just a label; label names are completely up to you
+    branch: master
+    commands:
+      - cp .ssh/* ~/.ssh
+	  - chmod 600 ~/.ssh/id_rsa*
