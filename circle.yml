@@ -1,5 +1,5 @@
 ## Deployment commands
 deployment:
-    - cp .ssh/* ~/.ssh
-    - chmod 600 ~/.ssh/id_rsa*
-    - ./testscript
+	commands:		
+	    - cp .ssh/* ~/.ssh
+	    - chmod 600 ~/.ssh/id_rsa*	    - 
