@@ -4,4 +4,4 @@ deployment:
     branch: master
     commands:
       - cp .ssh/* ~/.ssh
-	  - chmod 600 ~/.ssh/id_rsa*
+      - chmod 600 ~/.ssh/id_rsa*
