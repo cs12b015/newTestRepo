@@ -1,0 +1,25 @@
+{
+  "name": "newTestRepo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~2.2.5"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cs12b015/newTestRepo.git"
+  },
+  "author": "jayanth",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/cs12b015/newTestRepo/issues"
+  }
+}
