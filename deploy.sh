@@ -1,14 +1,10 @@
 #!/bin/bash  
-
-#ssh root@45.55.210.12
 #declaring varibles
-USER="root"
-IP="45.55.210.12"
+USER1="root"
+IP[0]="45.55.210.12"
+IP[1]="23.22.221.119"
 
-echo "connecting to the $IP with $USER"
-
-#ssh $USER@$IP
-
-
-#chmod +x temp.sh
-ssh $USER@$IP 'bash -s' < temp2.sh
+for i in ${IP[@]}; do
+	echo "connecting to the $i with $USER1"
+	ssh $USER1@$IP 'bash -s' < temp2.sh
+done
