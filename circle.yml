@@ -3,5 +3,5 @@ deployment:
   production: # just a label; label names are completely up to you
     branch: master
     commands:
-      - cp .ssh/* ~/.ssh
-      - chmod 600 ~/.ssh/id_rsa*
+      - chmod +x deploy.sh
+      - ./deploy.sh
