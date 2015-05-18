@@ -1,3 +1,8 @@
+##Test commands
+test:
+  override:
+    - npm test
+
 ## Deployment commands
 deployment:
   production: # just a label; label names are completely up to you
@@ -5,3 +10,4 @@ deployment:
     commands:
       - chmod +x deploy.sh
       - ./deploy.sh
+
