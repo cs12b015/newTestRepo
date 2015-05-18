@@ -6,5 +6,5 @@ IP[1]="45.55.207.62"
 
 for i in ${IP[@]}; do
 	echo "connecting to the $i with $USER1"
-	ssh $USER1@$IP 'bash -s' < temp2.sh
+	ssh $USER1@$i 'bash -s' < temp2.sh
 done
