@@ -13,4 +13,5 @@ for i in ${IP[@]}; do
 	cat temp2.sh >> temp1.sh
 	ssh $USER1@$i 'bash -s' < temp1.sh
 	let COUNTER=COUNTER+1
+	rm -rf temp1.sh
 done
